@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <!-- <link rel="stylesheet" href="./rpg.css"> -->
+    <title>RPG - Dragon Repeller</title>
+  </head>
+  <body>
+    <nav class="w3-bar w3-teal">
+        <a href="https://mandi628.github.io/index.html" class="w3-bar-item">Home</a>
+        <a href="../index.html" class="w3-bar-item">Adventure Games</a>
+        <a href="https://mandi628.github.io/index.html#contact" class="w3-bar-item">Contact</a>
+    </nav>
+    <div class="w3-container w3-header">
+        <h1>Adventure Games - Dragon Repeller</h1>
+        <p>by mandi628, Zhiva Codes</p>
+    </div>
+    <div id="game" class="w3-container w3-teal" style="max-width: 600px; margin: auto;">
+        <div class="w3-panel w3-white" style="padding: 10px;">
+            <div id="stats" class="w3-container w3-border">
+              <span class="stat w3-padding">XP: <strong><span id="xpText">0</span></strong></span>
+              <span class="stat w3-padding">Health: <strong><span id="healthText">100</span></strong></span>
+              <span class="stat w3-padding">Gold: <strong><span id="goldText">50</span></strong></span>
+            </div>
+            <div id="controls" class="w3-container w3-border w3-center" style="padding: 10px;">
+              <button id="button1" class="w3-button w3-small w3-round w3-purple">Go to store</button>
+              <button id="button2" class="w3-button w3-small w3-round w3-purple">Go to cave</button>
+              <button id="button3" class="w3-button w3-small w3-round w3-purple">Fight dragon</button>
+            </div>
+            <div id="monsterStats" class="w3-container w3-border w3-red" style="display: none;">
+              <span class="stat w3-padding">Monster Name: <strong><span id="monsterName"></span></strong></span>
+              <span class="stat w3-padding">Health: <strong><span id="monsterHealth"></span></strong></span>
+            </div>
+            <div class="w3-container w3-border">
+                <p id="text">Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.</p>
+            </div>
+        </div>
+    </div>
+    <script src="./rpg.js"></script>
+  </body>
+</html>
