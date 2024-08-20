@@ -123,5 +123,5 @@ function restart() {
 }
 
 function end() {
-    window.open("./adv-index.html", "_self");
+    window.open("./index.html", "_self");
 }
